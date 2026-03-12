@@ -36,7 +36,7 @@ const features = [
   {
     icon: Zap,
     title: "Autorun de verdade",
-    desc: "Chega de clicar em 'Executar' toda vez. Roda automaticamente sem intervenção.",
+    desc: "Chega de clicar em 'Run' toda vez. Roda automaticamente sem intervenção.",
   },
   {
     icon: RefreshCw,
@@ -79,7 +79,7 @@ const Index = () => {
       {/* Hero */}
       <section className="max-w-6xl mx-auto px-6 md:px-12 pt-0 pb-24">
         
-      <img src="/logo.png" alt="Logo" className="w-auto h-[300px] mx-auto" />
+      <img src="/logo.png" alt="Logo" className="h-[250px] w-auto mx-auto" />
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <motion.div
             initial="hidden"
